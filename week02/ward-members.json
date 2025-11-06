@@ -1,0 +1,28 @@
+{
+    "familyName": "Mazzoli",
+    "movedInDate": "2023-05-15",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Jonathan Mazzoli",
+            "gender": "Male",
+            "birthdate": "2001-09-24"
+        },
+        {
+            "name": "Lucia Mazzoli",
+            "gender": "Female",
+            "birthdate": "2004-09-03"
+        },
+        {
+            "name": "Jose Mazzoli",
+            "gender": "Male",
+            "birthdate": "1970-06-28"
+        },
+        {
+            "name": "Sandra Gonzalez",
+            "gender": "Female",
+            "birthdate": "1976-06-28"
+        }
+    ]
+}
