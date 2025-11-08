@@ -1,0 +1,68 @@
+{
+  "members": [
+    {
+      "name": "Las Piedras Tech Hub",
+      "address": "Av. Artigas 1025, Las Piedras",
+      "phone": "+598 2 555 1101",
+      "website": "https://lptechhub.uy",
+      "image": "lptechhub.jpg",
+      "membershipLevel": 3,
+      "description": "Co-working space and startup incubator supporting local innovation."
+    },
+    {
+      "name": "Bodega Canelones Sur",
+      "address": "Ruta 5 Km 28, Canelones",
+      "phone": "+598 2 555 2202",
+      "website": "https://bodegacanelonessur.uy",
+      "image": "bodegacanelones.jpg",
+      "membershipLevel": 2,
+      "description": "Family winery offering tours, tastings, and exports."
+    },
+    {
+      "name": "Centro Comercial Las Piedras",
+      "address": "Av. Batlle y Ordóñez 1500, Las Piedras",
+      "phone": "+598 2 555 3303",
+      "website": "https://cclas-piedras.uy",
+      "image": "centrocomerciallp.jpg",
+      "membershipLevel": 1,
+      "description": "Association promoting local retail and services."
+    },
+    {
+      "name": "Mate & Co. Uruguay",
+      "address": "Sarandí 555, Las Piedras",
+      "phone": "+598 2 555 4404",
+      "website": "https://mateco.uy",
+      "image": "mate&co.jpg",
+      "membershipLevel": 3,
+      "description": "Producers of premium yerba mate blends and accessories."
+    },
+    {
+      "name": "Charrúa Adventure Tours",
+      "address": "Parque Artigas, Las Piedras",
+      "phone": "+598 2 555 5505",
+      "website": "https://charruaadventure.uy",
+      "image": "charruaadventure.jpg",
+      "membershipLevel": 2,
+      "description": "Outdoor tourism company offering rafting and trekking."
+    },
+    {
+      "name": "Piedras Digital Studio",
+      "address": "Gral. Flores 890, Las Piedras",
+      "phone": "+598 2 555 6606",
+      "website": "https://piedrasdigital.uy",
+      "image": "piedrasdigitalstudio.jpg",
+      "membershipLevel": 1,
+      "description": "Web design and marketing services for local businesses."
+    },
+    {
+      "name": "Uruguay Logistics Oeste",
+      "address": "Ruta 48, Parque Industrial Las Piedras",
+      "phone": "+598 2 555 7707",
+      "website": "https://ulog-oeste.uy",
+      "image": "uruguaylogistics.jpg",
+      "membershipLevel": 3,
+      "description": "Logistics and distribution hub connecting Canelones and Montevideo."
+    }
+  ]
+}
+ 

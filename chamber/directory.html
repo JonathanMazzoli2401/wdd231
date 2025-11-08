@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Las Piedras Chamber of Commerce</title>
+        <meta name="description" content="Official business directory of the Las Piedras Chamber of Commerce in Canelones, Uruguay. Discover local companies, services, and opportunities.">
+        <meta name="author" content="Jonathan Mazzoli">
+
+        <link rel="icon" href="images/favicon.ico">
+        <meta property="og:title" content="Las Piedras Chamber of Commerce">
+        <meta property="og:description" content="Official business directory of the Las Piedras Chamber of Commerce in Canelones, Uruguay. Discover local companies, services, and opportunities.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+
+        <script src="scripts/directory.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="branding">
+                <img src="images/chamberlogo.png" alt="Las Piedras Chamber of Commerce logo" class="logo">
+                <div class="brand-text">
+                    <h1>Las Piedras Chamber of Commerce</h1>
+                    <p class="tagline">Promoting business and community in Canelones</p>
+                </div> 
+            </div>
+
+            <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="primary-nav">
+                <a href="index.html">Home</a>
+                <a href="directory.html" class="active">Directory</a>
+                <a href="join.html">Join</a>
+                <a href="discover.html">Discover</a>
+            </nav>
+        </header>
+
+        <section class="hero directory-hero">
+            <div class="hero-text">
+                <h2>Business Directory</h2>
+                <p>Find verified business across Las Piedras and the Canelones region</p>
+            </div>
+            <a href="join.html" class="btn hero-cta">Become a Member</a>
+        </section>
+
+        <main>
+            <section class="view-toggle" aria-label="Directory view options">
+                <button id="grid-view" class="toggle-btn active" type="button">Grid View</button>
+                <button id="list-view" class="toggle-btn" type="button">List View</button>
+            </section>
+
+            <section id="members" class="members members-grid" aria-live="polite">
+                <!-- JavaScript insert member cards -->
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-block footer-left">
+                    <h3>Las Piedras Chamber of Commerce</h3>
+                    <p>Av. Artigas 1234</p>
+                    <p>Las Piedras, Canelones, Uruguay</p>
+                    <p>info@lpcchamber.uy</p>
+                    <p>(+598) 2 123 4567</p>
+                </div>
+
+                <div class="footer-block footer-social">
+                    <a href="#" aria-label="Las Piedras Chamber on YouTube"><img src="images/youtubeicon.png" alt="YouTube"></a>
+                    <a href="#" aria-label="Las Piedras Chamber on X"><img src="images/xicon.png" alt="X"></a>
+                    <a href="#" aria-label="Las Piedras Chamber on LinkedIn"><img src="images/linkedinicon.png" alt="LinkedIn"></a>
+                </div>
+
+                <div class="footer-block footer-right">
+                    <p>WDD231 Class Project</p>
+                    <p>Jonathan Mazzoli</p>
+                    <p>&copy; <span id="currentyear"></span> Las Piedras Chamber of Commerce</p>
+                    <p>Last Modification: <span id="last-modified"></span></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
