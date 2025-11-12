@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modules Example: Course and Sections</title>
+  <link rel="stylesheet" href="styles/modules.css">
+  <script type="module" src="scripts/modules.mjs"></script>
+  <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+  <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+  <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+  <style lang="en" type="text/css" id="dark-mode-native-style"></style>
+  <style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
+</head>
+
+<body>
+  <main>
+  <h1 id="courseName"></h1>
+  <h2 id="courseCode"></h2>
+
+  <div id="enrollment">
+    <label for="sectionNumber">Choose a section:</label>
+    <select id="sectionNumber">
+
+    </select>
+    <button id="enrollStudent">Enroll a Student</button>
+    <button id="dropStudent">Drop a Student</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Section</th>
+        <th>Enrolled</th>
+        <th>Instructor</th>
+      </tr>
+    </thead>
+    <tbody id="sections">
+    </tbody>
+  </table>
+  </main>
+</body>
+
+</html>
+
+
+
