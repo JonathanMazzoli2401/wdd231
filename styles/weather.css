@@ -1,0 +1,75 @@
+/* ===== Weather Page Styles ===== */
+:root {
+  --bg-color: #e6f2ff;
+  --card-color: #ffffff;
+  --text-color: #1b4965;
+  --accent-color: #2e6e4c;
+  --shadow-color: rgba(0, 0, 0, 0.15);
+  --font-body: "Open Sans", sans-serif;
+  --font-title: "Bebas Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  color: var(--accent-color);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+main {
+  background-color: var(--card-color);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  text-align: center;
+  width: 320px;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+#current-temp {
+  font-weight: bold;
+  color: var(--accent-color);
+  font-size: 1.4rem;
+}
+
+figure {
+  margin: 0;
+}
+
+#weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
