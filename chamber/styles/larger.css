@@ -217,3 +217,43 @@
     margin: 0;
   }
 }
+
+/* ===== HOME LAYOUT (WIDE) ===== */
+@media (min-width: 768px) {
+  .home-hero {
+    margin: 0.75rem 4vw 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .home-main {
+    margin: 0.5rem 4vw 2rem;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1.1fr);
+    align-items: flex-start;
+  }
+
+  .events {
+    grid-column: 1;
+  }
+
+  .weather {
+    grid-column: 2;
+    position: sticky;
+    top: 1rem;
+  }
+
+  .spotlights {
+    grid-column: 1 / -1;
+  }
+
+  .spot-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-overlay {
+    padding: 0.75rem 2rem;
+  }
+}

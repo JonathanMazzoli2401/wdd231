@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Las Piedras Chamber of Commerce</title>
+        <meta name="description" content="Official home page of the Las Piedras Chamber of Commerce in Canelones, Uruguay. Discover local events, weather, and business opportunities.">
+        <meta name="author" content="Jonathan Mazzoli">
+
+        <link rel="icon" href="images/favicon.ico">
+        <meta property="og:title" content="Las Piedras Chamber of Commerce">
+        <meta property="og:description" content="Official home page of the Las Piedras Chamber of Commerce in Canelones, Uruguay. Discover local events, weather, and business opportunities.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://jonathanmazzoli2401.github.io/wdd231/chamber/directory.html">
+        <meta property="og:image" content="https://jonathanmazzoli2401.github.io/wdd231/chamber/images/laspiedrashero.jpg">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+
+        <script src="scripts/main.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
+        <script src="scripts/spotlights.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="branding">
+                <img src="images/chamberlogo.png" alt="Las Piedras Chamber of Commerce logo" class="logo">
+                <div class="brand-text">
+                    <h1>Las Piedras Chamber of Commerce</h1>
+                    <p class="tagline">Promoting business and community in Canelones</p>
+                </div> 
+            </div>
+
+            <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="primary-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html">Join</a>
+                <a href="discover.html">Discover</a>
+            </nav>
+        </header>
+
+        <main class="home/main">
+            <section class="hero home-hero">
+                <img src="images/hero.jpg" alt="Las Piedras city" class="hero-img">
+                <div class="hero-cta-bar">
+                    <div class="hero-cta-text">
+                        <h2>Grow with Las Piedras</h2>
+                        <p>Connect with local businesses, learn new skills, and strengthen our community together.</p>
+                    </div>
+                    <a href="join.html" class="hero-cta-btn">Become a Member</a>
+                </div>
+            </section>
+
+
+            <section class="events" aria-labelledby="events-title">
+                <h2 id="events-title" class="section-heading">Upcoming Events</h2>
+                <ul class="event-list">
+                    <li>
+                        <h3>Networking Breakfast</h3>
+                        <p>Centro Comercial • Fri 22 Nov, 08:30</p>
+                    </li>
+                    <li>
+                        <h3>Workshop: Digital Presence for Local Businesses</h3>
+                        <p>Casa de la Cultura • Tue 25 Nov, 18:00</p>
+                    </li>
+                </ul>
+                <p class="events-more">
+                    <a href="discover.html">See all events</a>
+                </p>
+            </section>
+
+            <section class="weather" aria-labelledby="weather-title">
+                <h2 id="weather-title" class="section-heading">Weather</h2>
+                <div class="weather-now">
+                    <h3 id="w-today">—</h3>
+                    <output id="w-temp" aria-live="polite">--</output>
+                    <span id="w-desc">Loading…</span>
+                </div>
+                <div id="w-forecast" class="weather-forecast" aria-live="polite"></div>
+                <small class="weather-note">Source: OpenWeatherMap</small>
+            </section>
+
+            <section class="spotlights" aria-labelledby="spot-title">
+                <h2 id="spot-title" class="section-heading">Member Spotlights</h2>
+                <div id="spot-grid" class="spot-grid" role="list">
+                    <!-- JS: Spotlights cards from members.json here-->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-block footer-left">
+                    <h3>Las Piedras Chamber of Commerce</h3>
+                    <p>Av. Artigas 1234</p>
+                    <p>Las Piedras, Canelones, Uruguay</p>
+                    <p>info@lpcchamber.uy</p>
+                    <p>(+598) 2 123 4567</p>
+                </div>
+
+                <div class="footer-block footer-social">
+                    <a href="#" aria-label="Las Piedras Chamber on YouTube"><img src="images/youtubeicon.png" alt="YouTube"></a>
+                    <a href="#" aria-label="Las Piedras Chamber on X"><img src="images/xicon.png" alt="X"></a>
+                    <a href="#" aria-label="Las Piedras Chamber on LinkedIn"><img src="images/linkedinicon.png" alt="LinkedIn"></a>
+                </div>
+
+                <div class="footer-block footer-right">
+                    <p>WDD231 Class Project</p>
+                    <p>Jonathan Mazzoli</p>
+                    <p>&copy; <span id="currentyear"></span> Las Piedras Chamber of Commerce</p>
+                    <p>Last Modification: <span id="last-modified"></span></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
