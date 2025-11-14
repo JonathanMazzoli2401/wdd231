@@ -43,6 +43,5 @@ async function loadForecast() {
   });
 }
 
-/* ================================ */
 loadCurrentWeather();
 loadForecast();

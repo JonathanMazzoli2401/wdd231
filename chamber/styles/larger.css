@@ -218,7 +218,6 @@
   }
 }
 
-/* ===== HOME LAYOUT (WIDE) ===== */
 @media (min-width: 768px) {
   .home-hero {
     margin: 0.75rem 4vw 1rem;
