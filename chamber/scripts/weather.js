@@ -23,7 +23,6 @@ async function loadForecast() {
   const container = document.getElementById("w-forecast");
   container.innerHTML = "";
 
-  // Tomamos 1 pronóstico por día (al mediodía)
   const daily = data.list.filter(item => item.dt_txt.includes("12:00:00")).slice(0, 3);
 
   daily.forEach(item => {
