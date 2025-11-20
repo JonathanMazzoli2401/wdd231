@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Las Piedras Chamber of Commerce</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description" content="Thank you for applying for membership in the Las Piedras Chamber of Commerce.">
+    <meta name="author" content="Jonathan Mazzoli">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <img src="images/chamberlogo.png" alt="Las Piedras Chamber of Commerce logo" class="logo">
+            <div class="brand-text">
+                <h1>Las Piedras Chamber of Commerce</h1>
+                <p class="tagline">Promoting business and community in Canelones</p>
+            </div>
+        </div>
+
+        <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+
+        <nav id="primary-nav">
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+
+    <main class="thankyou-main">
+        <section class="thankyou-card">
+            <h2>Thank You for Applying!</h2>
+            <p>We have received your membership application.</p>
+
+            <h3>Your Submitted Information</h3>
+            <div id="output"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-block footer-left">
+                <h3>Las Piedras Chamber of Commerce</h3>
+                <p>Av. Artigas 1234</p>
+                <p>Las Piedras, Canelones, Uruguay</p>
+                <p>info@lpcchamber.uy</p>
+                <p>(+598) 2 123 4567</p>
+            </div>
+
+            <div class="footer-block footer-social">
+                <a href="#"><img src="images/youtubeicon.png" alt="YouTube"></a>
+                <a href="#"><img src="images/xicon.png" alt="X"></a>
+                <a href="#"><img src="images/linkedinicon.png" alt="LinkedIn"></a>
+            </div>
+
+            <div class="footer-block footer-right">
+                <p>WDD231 Class Project</p>
+                <p>Jonathan Mazzoli</p>
+                <p>&copy; <span id="currentyear"></span> Las Piedras Chamber of Commerce</p>
+                <p>Last Modification: <span id="last-modified"></span></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

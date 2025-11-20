@@ -190,6 +190,16 @@
     margin-bottom: 1.5rem;
     text-align: center;
   }
+
+  .thankyou-main {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 15rem;
+  }
+
+  .thankyou-card {
+    padding: 2.5rem 3rem;
+  }
 }
 
 @media (min-width:1200px){
