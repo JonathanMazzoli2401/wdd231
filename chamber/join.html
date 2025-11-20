@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join | Las Piedras Chamber of Commerce</title>
+    <meta name="description" content="Join the Las Piedras Chamber of Commerce. Apply for membership and explore our benefits.">
+    <meta name="author" content="Jonathan Mazzoli">
+
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Las Piedras Chamber of Commerce">
+    <meta property="og:description" content="Join the Las Piedras Chamber of Commerce and discover member benefits.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jonathanmazzoli2401.github.io/wdd231/chamber/join.html">
+    <meta property="og:image" content="https://jonathanmazzoli2401.github.io/wdd231/chamber/images/laspiedrashero.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <img src="images/chamberlogo.png" alt="Las Piedras Chamber of Commerce logo" class="logo">
+            <div class="brand-text">
+                <h1>Las Piedras Chamber of Commerce</h1>
+                <p class="tagline">Promoting business and community in Canelones</p>
+            </div> 
+        </div>
+
+        <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="primary-nav">
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html" class="active">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+
+    <main class="join-main">
+
+        <section class="join-form">
+            <h2 class="section-heading">Membership Application</h2>
+
+            <form action="thankyou.html" method="get">
+
+                <label>First Name
+                    <input type="text" name="fname" required autocomplete="given-name">
+                </label>
+
+                <label>Last Name
+                    <input type="text" name="lname" required autocomplete="family-name">
+                </label>
+
+                <label>Organizational Title
+                    <input type="text" name="title" required pattern="[A-Za-z -]{7,}" title="Minimum 7 letters, spaces or hyphens.">
+                </label>
+
+                <label>Email
+                    <input type="email" name="email" required placeholder="name@example.com">
+                </label>
+
+                <label>Phone Number
+                    <input type="tel" name="phone" required autocomplete="tel">
+                </label>
+
+                <label>Organization Name
+                    <input type="text" name="organization" required>
+                </label>
+
+                <label>Business Description
+                    <textarea name="description"></textarea>
+                </label>
+
+                <label>Membership Level
+                    <select name="membership" required>
+                        <option value="">Choose a Level</option>
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <button class="btn" type="submit">Submit Application</button>
+            </form>
+        </section>
+
+        <section class="join-levels">
+            <h2 class="section-heading">Membership Levels</h2>
+
+            <div class="level-card fade-in">
+                <h3>NP Membership</h3>
+                <button class="btn open-modal" data-modal="modal-np">Learn More</button>
+            </div>
+
+            <div class="level-card fade-in">
+                <h3>Bronze Membership</h3>
+                <button class="btn open-modal" data-modal="modal-bronze">Learn More</button>
+            </div>
+
+            <div class="level-card fade-in">
+                <h3>Silver Membership</h3>
+                <button class="btn open-modal" data-modal="modal-silver">Learn More</button>
+            </div>
+
+            <div class="level-card fade-in">
+                <h3>Gold Membership</h3>
+                <button class="btn open-modal" data-modal="modal-gold">Learn More</button>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="modal" id="modal-np">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>NP Membership</h3>
+            <p>Free membership for non-profit organizations. Includes directory listing and basic benefits.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-bronze">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Bronze Membership</h3>
+            <p>Basic paid membership with event discounts and limited advertising features.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-silver">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Silver Membership</h3>
+            <p>Enhanced benefits: featured directory placement, spotlight rotation, advertising options.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-gold">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Gold Membership</h3>
+            <p>Top tier benefits, including maximum advertising visibility, priority training, and premium placement.</p>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-block footer-left">
+                <h3>Las Piedras Chamber of Commerce</h3>
+                <p>Av. Artigas 1234</p>
+                <p>Las Piedras, Canelones, Uruguay</p>
+                <p>info@lpcchamber.uy</p>
+                <p>(+598) 2 123 4567</p>
+            </div>
+
+            <div class="footer-block footer-social">
+                <a href="#"><img src="images/youtubeicon.png" alt="YouTube"></a>
+                <a href="#"><img src="images/xicon.png" alt="X"></a>
+                <a href="#"><img src="images/linkedinicon.png" alt="LinkedIn"></a>
+            </div>
+
+            <div class="footer-block footer-right">
+                <p>WDD231 Class Project</p>
+                <p>Jonathan Mazzoli</p>
+                <p>&copy; <span id="currentyear"></span> Las Piedras Chamber of Commerce</p>
+                <p>Last Modification: <span id="last-modified"></span></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

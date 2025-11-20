@@ -163,6 +163,33 @@
   .spot-grid{
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
   }
+
+  .join-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    justify-content: center;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    margin: 0 auto;
+    align-items: start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .join-form,
+  .join-levels {
+    max-width: 520px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .join-form .section-heading,
+  .join-levels .section-heading {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
 }
 
 @media (min-width:1200px){
