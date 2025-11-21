@@ -128,8 +128,8 @@ header{
   padding:0.6rem 1.4rem;
   border-radius:999px;
   border:none;
-  background-color: #178f55;
-  color: #ffffff;
+  background:#149c63;
+  color:#000000;
   font-weight:700;
   font-size:0.95rem;
   text-decoration:none;
@@ -139,7 +139,7 @@ header{
 
 .btn:hover{
   background:#ffc54d;
-  color:#ffffff;
+  color:#000000;
   transform:translateY(-1px);
   box-shadow:0 6px 16px rgba(0,0,0,0.18);
 }
