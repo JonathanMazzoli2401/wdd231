@@ -51,7 +51,7 @@
   #primary-nav a.active{
     border-bottom-color:#000;
     color:#000;
-    background-color: transparent !important;
+    background-color: #ffffff00 !important;
   }
 
   .hero{
