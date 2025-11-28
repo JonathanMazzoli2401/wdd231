@@ -231,24 +231,3 @@
         box-shadow: 0 10px 20px rgba(0,0,0,0.10);
     }
 }
-
-@media (min-width: 641px) {
-    .discover-grid {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "card card"
-            "card card"
-            "card card"
-            "card card";
-    }
-}
-
-@media (min-width: 1025px) {
-    .discover-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-            "card card card"
-            "card card card"
-            "card card card";
-    }
-}

@@ -6,7 +6,6 @@ function renderPlaces() {
     places.forEach(place => {
         const card = document.createElement("article");
         card.classList.add("discover-card");
-        card.style.gridArea = "card";
 
         card.innerHTML = `
             <h2>${place.name}</h2>

@@ -703,15 +703,3 @@ footer{
     background: #063f6b;
 }
 
-.discover-grid {
-    display: grid;
-    grid-template-areas:
-        "card"
-        "card"
-        "card"
-        "card"
-        "card"
-        "card"
-        "card"
-        "card";
-}
