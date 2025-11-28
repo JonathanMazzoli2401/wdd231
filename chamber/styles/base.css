@@ -87,6 +87,7 @@ header{
 #primary-nav.open{
   display:flex !important;
   flex-direction: column;
+  display: block;
 }
 
 #primary-nav a{
