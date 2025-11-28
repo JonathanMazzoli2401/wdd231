@@ -84,7 +84,10 @@ header{
   flex-direction:column;
 }
 
-#primary-nav.open{display:flex;}
+#primary-nav.open{
+  display:flex !important;
+  flex-direction: column;
+}
 
 #primary-nav a{
   padding:0.5rem 1rem;
