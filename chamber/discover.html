@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover | Las Piedras Chamber of Commerce</title>
+    <meta name="description" content="Discover interesting places, culture, and attractions in Las Piedras.">
+    <meta name="author" content="Jonathan Mazzoli">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Discover Las Piedras">
+    <meta property="og:description" content="Interesting places and attractions in Las Piedras.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/laspiedrashero.jpg">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script type="module" src="scripts/discover.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <img src="images/chamberlogo.png" alt="Las Piedras Chamber of Commerce logo" class="logo">
+            <div class="brand-text">
+                <h1>Las Piedras Chamber of Commerce</h1>
+                <p class="tagline">Promoting business and community in Canelones</p>
+            </div>
+        </div>
+
+        <button id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+
+        <nav id="primary-nav">
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html" class="active">Discover</a>
+        </nav>
+    </header>
+
+    <main class="discover-main">
+
+        <section id="visit-message" class="visit-message"></section>
+
+        <h2 class="section-heading">Discover Las Piedras</h2>
+
+        <section id="discover-grid" class="discover-grid">
+            <!-- JS will insert the 8 cards here -->
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-block footer-left">
+                <h3>Las Piedras Chamber of Commerce</h3>
+                <p>Av. Artigas 1234</p>
+                <p>Las Piedras, Canelones, Uruguay</p>
+                <p>info@lpcchamber.uy</p>
+                <p>(+598) 2 123 4567</p>
+            </div>
+
+            <div class="footer-block footer-social">
+                <a href="#" aria-label="YouTube"><img src="images/youtubeicon.png" alt="YouTube"></a>
+                <a href="#" aria-label="X"><img src="images/xicon.png" alt="X"></a>
+                <a href="#" aria-label="LinkedIn"><img src="images/linkedinicon.png" alt="LinkedIn"></a>
+            </div>
+
+            <div class="footer-block footer-right">
+                <p>WDD231 Class Project</p>
+                <p>Jonathan Mazzoli</p>
+                <p>&copy; <span id="currentyear"></span> Las Piedras Chamber of Commerce</p>
+                <p>Last Modification: <span id="last-modified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
