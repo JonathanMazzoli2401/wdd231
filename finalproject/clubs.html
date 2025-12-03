@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Uruguay Football Passion | Clubs & Fans</title>
+        <meta name="description" content="Explore major Uruguayan football clubs and learn about the unique fan culture.">
+        <meta name="author" content="Jonathan Mazzoli">
+        <link rel="icon" href="images/favicon.ico">
+
+        <meta property="og:title" content="Uruguayan Clubs and Fan Culture">
+        <meta property="og:description" content="Discover clubs across Uruguay and how fans live each match.">
+        <meta property="og:image" content="https://TU-GITHUB-PAGES-URL/images/club1.jpg">
+        <meta property="og:url" content="https://TU-GITHUB-PAGES-URL/clubs.html">
+        <meta name="twitter:card" content="summary_large_image">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
+
+        <script type="module" src="scripts/main.js"></script>
+    </head>
+
+    <body data-page="clubs">
+        <header>
+            <div class="branding">
+                <img src="images/logo.svg" alt="Uruguay Football Passion logo" class="logo">
+                <h1 class="site-title">Uruguay Football Passion</h1>
+            </div>
+            <button id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            <nav id="primary-nav" class="nav">
+                <a href="index.html">Home</a>
+                <a href="history.html">History</a>
+                <a href="clubs.html" class="active">Clubs & Fans</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1>Clubs of Uruguay</h1>
+                <p>Use the filters below to explore clubs from Montevideo and from the interior of the country. Select a club to see more details.</p>
+
+                <div class="filters">
+                    <label for="city-filter">Filter by region:</label>
+                    <select id="city-filter" name="city-filter">
+                        <option value="all">All clubs</option>
+                        <option value="montevideo">Montevideo</option>
+                        <option value="interior">Interior</option>
+                    </select>
+                </div>
+
+                <section class="club-grid" aria-live="polite">
+                    <!-- Dynamic content -->
+                </section>
+
+                <dialog id="club-dialog" aria-modal="true">
+                    <h2 id="dialog-title"></h2>
+                    <p id="dialog-meta"></p>
+                    <p id="dialog-body"></p>
+                    <button class="modal-close">Close</button>
+                </dialog>
+            </section>
+
+            <section id="fan-culture">
+                <h2>Fan Culture</h2>
+                <p>Matchdays in Uruguay are full of color and sound. Fans gather hours before kickoff, sharing mate, singing club songs, and preparing giant flags known as “trapos”. Drums and trumpets lead the chants that continue for the full ninety minutes.</p>
+                <p>Whether it is a clásico between Nacional and Peñarol or a local match in the interior, the atmosphere reflects pride in neighborhood, city, and country. Respect for the game and the rivals is an essential part of this culture.</p>
+            </section>
+
+            <section class="form-section" aria-labelledby="form-title">
+                <h2 id="form-title">Match Experience Request</h2>
+                <p>Planning to visit Uruguay and watch a match? Fill out the form and we will suggest a club and stadium experience.</p>
+
+                <form action="thankyou.html" method="get" class="form-grid">
+                    <label for="name">Full name</label>
+                    <input id="name" name="name" type="text" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="favorite-club">Favorite club (if any)</label>
+                    <input id="favorite-club" name="favoriteClub" type="text" placeholder="Nacional, Peñarol, etc.">
+
+                    <label for="experience-level">Football experience level</label>
+                    <select id="experience-level" name="experienceLevel" required>
+                        <option value="">Select one</option>
+                        <option value="firstMatch">This will be my first live match</option>
+                        <option value="casualFan">I am a casual football fan</option>
+                        <option value="hardcore">I never miss a match</option>
+                    </select>
+
+                    <label for="travel-date">Estimated travel date</label>
+                    <input id="travel-date" name="travelDate" type="date">
+
+                    <label for="message">Additional notes</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <div class="form-actions">
+                        <button type="submit">Send request</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Uruguay Football Passion</p>
+            <p>Total visits: <span id="visits-count"></span></p>
+            <p><a href="attributions.html">Attributions</a></p>
+        </footer>
+    </body>
+</html>

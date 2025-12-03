@@ -1,0 +1,164 @@
+{
+    "clubs": [
+        {
+            "id": 1,
+            "name": "Nacional",
+            "city": "Montevideo",
+            "founded": 1899,
+            "stadium": "Gran Parque Central",
+            "titles": 50,
+            "image": "images/nacional.jpg",
+            "description": "One of the oldest and most successful clubs in Uruguay with a rich international history."
+        },
+        {
+            "id": 2,
+            "name": "Peñarol",
+            "city": "Montevideo",
+            "founded": 1891,
+            "stadium": "Campeón del Siglo",
+            "titles": 52,
+            "image": "images/penarol.jpg",
+            "description": "Historic rival of Nacional, known worldwide for intense rivalries and passionate supporters."
+        },
+        {
+            "id": 3,
+            "name": "Defensor Sporting",
+            "city": "Montevideo",
+            "founded": 1913,
+            "stadium": "Luis Franzini",
+            "titles": 4,
+            "image": "images/defensor.jpg",
+            "description": "Recognized for strong youth development and consistent top-flight presence."
+        },
+        {
+            "id": 4,
+            "name": "Danubio",
+            "city": "Montevideo",
+            "founded": 1932,
+            "stadium": "Jardines del Hipódromo",
+            "titles": 3,
+            "image": "images/danubio.jpg",
+            "description": "A club famous for producing talented players who succeed in Europe."
+        },
+        {
+            "id": 5,
+            "name": "Liverpool FC (URU)",
+            "city": "Montevideo",
+            "founded": 1915,
+            "stadium": "Belvedere",
+            "titles": 1,
+            "image": "images/liverpool.jpg",
+            "description": "Modern era success story with recent titles and strong performances."
+        },
+        {
+            "id": 6,
+            "name": "River Plate (URU)",
+            "city": "Montevideo",
+            "founded": 1932,
+            "stadium": "Parque Saroldi",
+            "titles": 0,
+            "image": "images/river.jpg",
+            "description": "Known for entertaining football and its traditional neighborhood identity."
+        },
+        {
+            "id": 7,
+            "name": "Montevideo Wanderers",
+            "city": "Montevideo",
+            "founded": 1902,
+            "stadium": "Parque Viera",
+            "titles": 0,
+            "image": "images/wanderers.jpg",
+            "description": "Historic club with a loyal fan base and frequent international appearances."
+        },
+        {
+            "id": 8,
+            "name": "Cerro",
+            "city": "Montevideo",
+            "founded": 1922,
+            "stadium": "Luis Tróccoli",
+            "titles": 0,
+            "image": "images/cerro.jpg",
+            "description": "Traditional team from the Cerro neighborhood with strong local identity."
+        },
+        {
+            "id": 9,
+            "name": "Juventud de Las Piedras",
+            "city": "Las Piedras",
+            "founded": 1935,
+            "stadium": "Estadio Artigas",
+            "titles": 0,
+            "image": "images/juventud.jpg",
+            "description": "A traditional team from Las Piedras, known for strong community identity and consistent performances in the Uruguayan leagues."
+        },
+        {
+            "id": 10,
+            "name": "Plaza Colonia",
+            "city": "Colonia",
+            "founded": 1917,
+            "stadium": "Parque Prandi",
+            "titles": 1,
+            "image": "images/plaza.jpg",
+            "description": "Representative of the interior teams, with a remarkable league title in recent years."
+        },
+        {
+            "id": 11,
+            "name": "Cerro Largo",
+            "city": "Melo",
+            "founded": 2002,
+            "stadium": "Ubilla",
+            "titles": 0,
+            "image": "images/cerrolargo.jpg",
+            "description": "Young club from the interior with growing influence in the league."
+        },
+        {
+            "id": 12,
+            "name": "Boston River",
+            "city": "Montevideo",
+            "founded": 1939,
+            "stadium": "Parque Artigas",
+            "titles": 0,
+            "image": "images/bostonriver.jpg",
+            "description": "Club that recently reached international competitions, punching above its weight."
+        },
+        {
+            "id": 13,
+            "name": "Progreso",
+            "city": "Montevideo",
+            "founded": 1917,
+            "stadium": "Parque Paladino",
+            "titles": 1,
+            "image": "images/progreso.jpg",
+            "description": "Working-class club with a historic league title in the late 1980s."
+        },
+        {
+            "id": 14,
+            "name": "Montevideo City Torque",
+            "city": "Montevideo",
+            "founded": 2007,
+            "stadium": "Estadio Montevideo City Torque",
+            "titles": 1,
+            "image": "images/torque.jpg",
+            "description": "A modern and ambitious club known for its professional structure, player development, and its connection to the City Football Group."
+        },
+        {
+            "id": 15,
+            "name": "Miramar Misiones",
+            "city": "Montevideo",
+            "founded": 1906,
+            "stadium": "Parque Luis Méndez Piana",
+            "titles": 0,
+            "image": "images/miramar.jpg",
+            "description": "Historic Montevideo club formed from the merger of Miramar and Misiones, known for its traditional neighborhood identity and developing young talent."
+        },
+        {
+            "id": 16,
+            "name": "Racing Club de Montevideo",
+            "city": "Montevideo",
+            "founded": 1919,
+            "stadium": "Parque Osvaldo Roberto",
+            "titles": 0,
+            "image": "images/racing.jpg",
+            "description": "Historic Montevideo club known as La Escuelita, recognized for talent development and its passionate neighborhood fanbase."
+        }
+    ]
+}

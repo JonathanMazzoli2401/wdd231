@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Submission | Uruguay Football Passion</title>
+        <meta name="description" content="Confirmation page for the match experience form.">
+        <meta name="author" content="Jonathan Mazzoli">
+        <link rel="icon" href="images/favicon.ico">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
+
+        <script type="module" src="scripts/main.js"></script>
+    </head>
+
+    <body data-page="form-action">
+        <header>
+            <div class="branding">
+                <img src="images/logo.svg" alt="Uruguay Football Passion logo" class="logo">
+                <h1 class="site-title">Uruguay Football Passion</h1>
+            </div>
+            <button id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            <nav id="primary-nav" class="nav">
+                <a href="index.html">Home</a>
+                <a href="history.html">History</a>
+                <a href="clubs.html">Clubs & Fans</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Thank You!</h1>
+                <p>Your request has been received. Here is a summary of what you sent:</p>
+                <div id="form-output"></div>
+                <p><a class="btn" href="index.html">Back to Home</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Uruguay Football Passion</p>
+            <p>Total visits: <span id="visits-count"></span></p>
+            <p><a href="attributions.html">Attributions</a></p>
+        </footer>
+    </body>
+</html>
