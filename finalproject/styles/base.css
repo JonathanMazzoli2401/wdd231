@@ -91,7 +91,7 @@ header {
 }
 
 .nav a.active {
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 
@@ -203,8 +203,9 @@ h3 {
 
 .history-layout {
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-top: 8rem;
+    margin-bottom: 2rem;
 }
 
 .history-layout img {
