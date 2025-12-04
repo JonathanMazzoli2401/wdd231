@@ -301,7 +301,7 @@ dialog::backdrop {
     border-radius: 999px;
     border: none;
     background-color: var(--primary);
-    color: #ffffff;
+    color: #030303;
     cursor: pointer;
 }
 
